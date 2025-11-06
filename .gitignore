@@ -1,0 +1,16 @@
+# Python artifacts
+__pycache__/
+*.pyc
+venv/
+
+# Environment variables (DO NOT COMMIT YOUR API KEY)
+.env
+
+# Vector store data
+vector_store/
+chroma/ # If you used ChromaDB in testing
+*.log
+
+# IDE files
+.vscode/
+.idea/

@@ -1,0 +1,20 @@
+# --- Core Functionality ---
+python-dotenv
+pypdf
+
+# --- AI & Vector Store ---
+# For creating embeddings locally
+sentence-transformers
+
+# For the vector database (CPU version)
+faiss-cpu
+
+# For making direct API calls to the LLM
+httpx
+
+# --- LangChain for Utilities ONLY ---
+# We ONLY use LangChain for its stable document loaders
+langchain-community
+
+# --- NLTK for Sentence Splitting ---
+nltk
