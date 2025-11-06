@@ -3,18 +3,20 @@ python-dotenv
 pypdf
 
 # --- AI & Vector Store ---
-# For creating embeddings locally
 sentence-transformers
-
-# For the vector database (CPU version)
-faiss-cpu
-
-# For making direct API calls to the LLM
 httpx
+# ChromaDB is an open-source embedding database, great for local development
+chromadb
+uuid
 
-# --- LangChain for Utilities ONLY ---
-# We ONLY use LangChain for its stable document loaders
+# --- FastAPI and Server ---
+fastapi
+uvicorn[standard]
+pydantic
+
+# --- LangChain for Utilities ONLY (used by ingestion_cli.py) ---
 langchain-community
-
-# --- NLTK for Sentence Splitting ---
 nltk
+
+# --- Requests for ingestion_cli.py ---
+requests
